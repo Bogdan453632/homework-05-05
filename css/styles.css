@@ -580,3 +580,22 @@ img {
     margin-bottom: 16px;
     color: #2e2f42;
 }
+
+.modal-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-container {
+    margin-bottom: 8px;
+}
+
+.modal-label {
+    display: block;
+    margin-bottom: 4px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 1.17;
+    letter-spacing: 0.48px;
+    color: #8e8f99;
+}

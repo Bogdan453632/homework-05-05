@@ -547,6 +547,10 @@ img {
     padding: 0;
 }
 
+.closed-modal:hover > .icon-closed,
+.closed-modal:focus > .icon-closed {
+    fill: #ffffff
+}
 .closed-modal:hover {
     background-color: #404bbf;
     border: none;

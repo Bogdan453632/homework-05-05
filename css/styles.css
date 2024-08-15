@@ -703,14 +703,14 @@ img {
     transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1), border 250ms cubic-bezier(0.4, 0, 0.2, 1), fill 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
 
-.checkbox-input:checked ~ .check-label .checkbox-icon {
+.checkbox-input:checked + .check-label > .checkbox-icon {
     fill: #F4F4FD;
 }
 
-.checkbox-input:checked~.check-label .checkbox {
+.checkbox-input:checked + .check-label > .checkbox {
     background-color: #404BBF;
-        border: none;
-        fill: #F4F4FD;
+    border: none;
+    fill: #F4F4FD;
 }
 
 .selected-text {
